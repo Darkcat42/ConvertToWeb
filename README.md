@@ -13,3 +13,7 @@ simple converter from .png .jpg .jpeg .bmp to webp
 директория ввода называется "input"
 директория вывода называется "output"
 
+# как использовать? - 
+converter = ConvertToWeb( тут происходит установка ваших значений (оставьте пустым для значений по умолчанию) )
+converter.to_webp()
+
